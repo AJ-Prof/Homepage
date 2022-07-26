@@ -1,16 +1,30 @@
 body {
-    background-color: #98E3FF;
-}
-
-hr {
-    background-color: red
-}
-
-p {
-    text-align: justify;
-    width: 50%
+    background-color: #F1FAEE;
 }
 
 .bb {
     font-weight: bold;
 }
+
+section:nth-of-type(2n) {
+    background-color: #dfe8dc;
+}
+
+li>a {
+    text-decoration: none;
+    color: #28485c;
+}
+
+li>a:hover {
+    text-decoration: underline;
+    color: #fb8500;
+}
+
+nav>a {
+    color: #28485c;
+}
+
+nav>a:hover {
+    color: #E63946;
+}
+
