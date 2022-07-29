@@ -1,6 +1,11 @@
 body {
-    background-color: #F1FAEE;
+    background-color: #202040;
     margin: 0;
+    color: #ffffff;
+}
+
+h1 {
+    color: #FF1E56;
 }
 
 .bb {
@@ -8,13 +13,13 @@ body {
 }
 
 section:nth-of-type(2n) {
-    background-color: #dfe8dc;
+    background-color: #424874;
     width: fit-content;
     height: fit-content;
     border-style: solid;
     border-width: thin;
     border-top-width: thick;
-    border-color: #1D3557;
+    border-color: #fb8500;
     border-radius: 5px
 }
 
@@ -30,7 +35,7 @@ section:nth-of-type(2n-1) {
 
 li>a {
     text-decoration: none;
-    color: #28485c;
+    color: #ffbe0b;
 }
 
 li>a:hover {
@@ -39,7 +44,7 @@ li>a:hover {
 }
 
 nav>a {
-    color: #28485c;
+    color: #ffbe0b;
 }
 
 nav>a:hover {
@@ -52,3 +57,11 @@ nav>a:hover {
     border-style: solid;
     border-width: 0px;
 } 
+
+h3, section, p, ul{
+    margin: 7px;
+}
+
+* {
+    margin-left: 3px;
+}
